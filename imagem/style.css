@@ -1,3 +1,58 @@
 body {
-    background-color: #1582e0; 
+    background-color: #f0f0f0; /* Um cinza bem claro para o fundo */
+    font-family: Arial, sans-serif; /* Fonte padrão para o texto */
+    line-height: 1.6; /* Espaçamento entre as linhas para melhor leitura */
+    color: #333; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    Header e Main: Estilo para as seções principais do conteúdo
+*/
+header {
+    background-color: #2c3e50; /* Cor de fundo para o cabeçalho */
+    color: white; /* Cor do texto no cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px; /* Limita a largura do conteúdo para não ficar muito largo */
+    margin: 20px auto; /* Centraliza o conteúdo e adiciona margem em cima e embaixo */
+    padding: 0 20px; /* Espaçamento nas laterais */
+}
+
+/*
+    Título: Estilo para o título principal (h1)
+*/
+h1 {
+    font-size: 2.5em; /* Tamanho da fonte do título */
+    margin-bottom: 0.5em; /* Espaçamento abaixo do título */
+}
+
+/*
+    Parágrafos: Estilo para o texto (p)
+*/
+p {
+    margin-bottom: 1.5em; /* Espaçamento abaixo de cada parágrafo */
+}
+
+/*
+    Strong: Estilo para as palavras em negrito
+*/
+strong {
+    color: #e74c3c; /* Cor de destaque para as palavras-chave */
+}
+
+/*
+    Footer: Estilo para o rodapé
+*/
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ecf0f1;
+    color: #7f8c8d;
+    font-size: 0.9em;
+    margin-top: 30px;
 }
