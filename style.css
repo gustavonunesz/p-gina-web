@@ -1,0 +1,65 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e6f0fa; /* fundo azul claro */
+    color: #222;
+    padding: 20px;
+}
+
+header {
+    background-color: #005bb5; /* azul escuro */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffffff; /* branco */
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #003366; /* azul forte para subtítulos */
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #004080;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+ul {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+blockquote {
+    font-style: italic;
+    color: #336699;
+    border-left: 4px solid #6699cc;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+    font-size: 0.9rem;
+}
